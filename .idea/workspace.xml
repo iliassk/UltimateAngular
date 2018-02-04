@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d9c7601-ca10-4ead-b536-1b936e437beb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/package-lock.json" afterPath="$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/package.json" afterPath="$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,7 +17,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="2601" column="15" lean-forward="false" selection-start-line="2601" selection-start-column="5" selection-end-line="2601" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,6 +36,12 @@
         <option value="TypeScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>handlebar</find>
+      <find>handle</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +52,7 @@
         <option value="$PROJECT_DIR$/TSProjects/TS_Fundamentals/fain.ts" />
         <option value="$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.ts" />
         <option value="$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/package-lock.json" />
       </list>
     </option>
   </component>
@@ -41,6 +61,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="244" />
@@ -64,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,11 +99,30 @@
               <item name="UltimateAngular" type="462c0819:PsiDirectoryNode" />
               <item name="TSProjects" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UltimateAngular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UltimateAngular" type="462c0819:PsiDirectoryNode" />
+              <item name="TSProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="TS_Fundamentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UltimateAngular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UltimateAngular" type="462c0819:PsiDirectoryNode" />
+              <item name="TSProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="TS_Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UltimateAngular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UltimateAngular" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeScript_Basics" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -120,11 +161,12 @@
       <workItem from="1517341300900" duration="2038000" />
       <workItem from="1517747963456" duration="604000" />
       <workItem from="1517752016249" duration="1614000" />
+      <workItem from="1517753690891" duration="265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6804000" />
+    <option name="totallyTimeSpent" value="7069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,90 +213,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/fain.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/fain.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/fain.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/fain.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.ts" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/fain.ts" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.ts" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/fain.ts" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.ts" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/fain.ts" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.js" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/main.ts" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/fain.ts" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/package.json" />
     <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -262,38 +234,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/dist/inline.bundle.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/dist/main.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2106">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/dist/inline.bundle.js.map" />
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/dist/main.bundle.js" />
     <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -301,7 +250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -309,7 +257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -317,9 +264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#55#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -327,7 +271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -335,9 +278,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TSProjects/TS_Fundamentals/basics/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="2601" column="15" lean-forward="false" selection-start-line="2601" selection-start-column="5" selection-end-line="2601" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
