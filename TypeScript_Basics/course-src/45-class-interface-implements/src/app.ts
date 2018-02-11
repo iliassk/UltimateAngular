@@ -21,6 +21,9 @@ interface PizzaInterface extends SizesInterface {
   addTopping(topping: string): void;
 }
 
+type test = (sizes: string[]) => void;
+
+
 class Pizza extends Sizes implements PizzaInterface {
   public toppings: string[] = [];
 
