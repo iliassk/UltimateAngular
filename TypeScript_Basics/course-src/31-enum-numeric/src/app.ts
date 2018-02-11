@@ -5,6 +5,7 @@ enum Sizes {
 }
 enum Sizes {
   ExtraLarge = 3,
+  xtraSize
 }
 
 const selectedSize = 2;
