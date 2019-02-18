@@ -1,5 +1,6 @@
-import { Component, Output, EventEmitter, ContentChild, AfterContentInit } from '@angular/core';
+import {Component, Output, EventEmitter, ElementRef, ChangeDetectorRef, AfterViewInit, ViewChild, ViewChildren, AfterContentInit, ContentChildren, QueryList} from '@angular/core';
 import { AuthRememberComponent } from './auth-remember.component';
+import { AuthMessageComponent } from "./auth-message.component";
 
 import { User } from './auth-form.interface';
 
@@ -10,7 +11,7 @@ import { User } from './auth-form.interface';
       <form (ngSubmit)="onSubmit(form.value)" #form="ngForm">
         <ng-content select="h3"></ng-content>
         <mat-form-field>
-          <input matInput placeholder="Email address" type="email" name="email" ngModel>
+          <input matInput placeholder="Email address" type="email" name="email" #email ngModel>
         </mat-form-field>
         <br>
         <mat-form-field>
@@ -18,29 +19,49 @@ import { User } from './auth-form.interface';
         </mat-form-field>
         <br>
         <ng-content select="auth-remember"></ng-content>
-        <div *ngIf="showMessage">
-          You'll remain logged in for the next 30 days.
-        </div>
+        <auth-message [style.display]="showMessage ? 'inherit' : 'none'"></auth-message>
         <ng-content select="button"></ng-content>
       </form>
     </div>
   `
 })
-export class AuthFormComponent implements AfterContentInit{
+export class AuthFormComponent implements AfterContentInit, AfterViewInit {
 
   private showMessage: boolean;
 
   @Output() private submitted: EventEmitter<User> = new EventEmitter<User>();
 
-  @ContentChild(AuthRememberComponent) private remember: AuthRememberComponent;
+  @ViewChild('email') private email: ElementRef;
+
+  @ViewChildren(AuthMessageComponent) private messages: QueryList<AuthMessageComponent>;
+
+  @ContentChildren(AuthRememberComponent) private remember: QueryList<AuthRememberComponent>;
+
+  constructor(private cd: ChangeDetectorRef) {
+
+  }
 
   onSubmit(value: User) {
     this.submitted.emit(value);
   }
 
+  ngAfterViewInit(): void {
+    this.email.nativeElement.setAttribute('type', 'password');
+    this.email.nativeElement.focus();
+
+    if(this.messages) {
+      this.messages.forEach((message) => {
+        message.days = 60;
+      })
+    }
+    this.cd.detectChanges();
+  }
+
   ngAfterContentInit(): void {
     if(this.remember) {
-      this.remember.checked.subscribe((checked: boolean) => this.showMessage = checked);
+      this.remember.forEach((rememberComponent) => {
+        rememberComponent.checked.subscribe((checked: boolean) => this.showMessage = checked);
+      });
     }
   }
 
