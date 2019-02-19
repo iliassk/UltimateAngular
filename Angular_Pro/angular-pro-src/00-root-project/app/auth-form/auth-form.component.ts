@@ -48,13 +48,12 @@ export class AuthFormComponent implements AfterContentInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.email.nativeElement.setAttribute('type', 'password');
     this.email.nativeElement.focus();
-
     if(this.messages) {
       this.messages.forEach((message) => {
         message.days = 60;
       })
+      this.cd.detectChanges();
     }
-    this.cd.detectChanges();
   }
 
   ngAfterContentInit(): void {
