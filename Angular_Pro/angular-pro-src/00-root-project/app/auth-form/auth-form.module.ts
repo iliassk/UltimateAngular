@@ -21,6 +21,9 @@ import { MaterialDesignModule } from "../shared/material-design.module";
   exports: [
     AuthFormComponent,
     AuthRememberComponent
+  ],
+  entryComponents: [
+    AuthFormComponent
   ]
 })
 export class AuthFormModule {}
